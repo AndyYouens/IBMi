@@ -8,12 +8,12 @@
 /********************************************************************/
  Start:      Pgm
 
-             Dcl        &Date        *char      6
-             Dcl        &Mbr         *char     10
-             Dcl        &IFSDir      *Char    256  Value( '/oss/logs/' )
-             Dcl        &Time        *Char      6
-             Dcl        &FullName    *Char    256
-             Dcl        &PDFName     *Char    640
+             Dcl        &Date          *char             6
+             Dcl        &Mbr           *char            10
+             Dcl        &IFSDir        *Char           256  Value( '/oss/logs/' )
+             Dcl        &Time          *Char             6
+             Dcl        &FullName      *Char           256
+             Dcl        &PDFName       *Char           640
 
              Dcl        &MsgId         *Char             7
              Dcl        &MsgDta        *Char           256
